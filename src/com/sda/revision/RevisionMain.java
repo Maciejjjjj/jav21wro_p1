@@ -37,7 +37,14 @@ public class RevisionMain {
                 break;
 
             case 3:
+                System.out.println("Please enter height of triangle");
+                int height = scanner.nextInt();
 
+                Triangle triangle = new Triangle(height);
+
+                triangle.draw();
+
+                break;
         }
 
 
