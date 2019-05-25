@@ -1,7 +1,5 @@
 package com.sda.primeNumbers;
 
-import java.util.Scanner;
-
 public class PrimeSelector {
 
     public boolean isPrime(int n) {
@@ -18,7 +16,7 @@ public class PrimeSelector {
 
         int i;
         for (i = range; i >= 2; i--) {
-            if (isPrime(i) == true){
+            if (isPrime(i) == true) {
                 System.out.println(i);
             }
         }
